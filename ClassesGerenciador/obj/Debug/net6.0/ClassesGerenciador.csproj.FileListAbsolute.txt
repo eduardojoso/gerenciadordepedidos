@@ -1,0 +1,11 @@
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\bin\Debug\net6.0\ClassesGerenciador.deps.json
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\bin\Debug\net6.0\ClassesGerenciador.dll
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\bin\Debug\net6.0\ClassesGerenciador.pdb
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.AssemblyInfoInputs.cache
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.AssemblyInfo.cs
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.csproj.CoreCompileInputs.cache
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.dll
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\refint\ClassesGerenciador.dll
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.pdb
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ref\ClassesGerenciador.dll
