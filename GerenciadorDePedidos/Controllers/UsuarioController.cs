@@ -9,36 +9,30 @@ namespace GerenciadorDePedidos.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        // GET: api/<UsuarioController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //// GET: api/<UsuarioController>
+        //[HttpGet]
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
         // GET api/<UsuarioController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //[HttpGet]
+        //public List<string> Get()
+        //{
+        //}
 
-        // POST api/<UsuarioController>
         [HttpPost]
         public void Post([FromBody] ModeloUsuario usuario)
         {
+            usuario.InserirUsuario(usuario.Nome, usuario.Perfil, usuario.Status);
         }
 
         // PUT api/<UsuarioController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] ModeloUsuario usuario)
         {
-        }
-
-        // DELETE api/<UsuarioController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            usuario.EditarUsuario(id, usuario.Nome, usuario.Perfil, usuario.Status);
         }
     }
 }

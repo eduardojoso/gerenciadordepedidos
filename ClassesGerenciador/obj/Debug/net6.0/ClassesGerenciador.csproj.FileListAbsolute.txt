@@ -9,3 +9,5 @@ C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug
 C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\refint\ClassesGerenciador.dll
 C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.pdb
 C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ref\ClassesGerenciador.dll
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.csproj.AssemblyReference.cache
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.sourcelink.json
