@@ -2380,24 +2380,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\egrfj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\ClassesGerenciador.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
       "projectName": "ClassesGerenciador",
-      "projectPath": "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\ClassesGerenciador.csproj",
-      "packagesPath": "C:\\Users\\egrfj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\Source\\Repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\Source\\Repos\\gerenciadordepedidos\\ClassesGerenciador\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\egrfj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2453,7 +2448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
