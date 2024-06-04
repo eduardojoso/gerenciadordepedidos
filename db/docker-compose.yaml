@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  mysql_new:
+    container_name: mysql_current
+    hostname: mysql_current
+    image: mysql:8.0.33
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+     MYSQL_DATABASE: "2023"
+     MYSQL_ROOT_PASSWORD: 123456
+    ports: 
+     - "3306:3306" 
+ 

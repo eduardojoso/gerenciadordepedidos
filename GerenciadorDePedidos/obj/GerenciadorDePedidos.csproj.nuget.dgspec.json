@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj": {}
+    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
+    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
+        "projectUniqueName": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
         "projectName": "ClassesGerenciador",
-        "projectPath": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\obj\\",
+        "projectPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
+        "packagesPath": "C:\\Users\\rony-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programas\\instalados\\VisualStudio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rony-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,17 +78,21 @@
         }
       }
     },
-    "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj": {
+    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj",
+        "projectUniqueName": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj",
         "projectName": "GerenciadorDePedidos",
-        "projectPath": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\obj\\",
+        "projectPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\GerenciadorDePedidos\\GerenciadorDePedidos.csproj",
+        "packagesPath": "C:\\Users\\rony-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\GerenciadorDePedidos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programas\\instalados\\VisualStudio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rony-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +106,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
-                "projectPath": "C:\\Users\\lucas\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj"
+              "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
+                "projectPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj"
               }
             }
           }

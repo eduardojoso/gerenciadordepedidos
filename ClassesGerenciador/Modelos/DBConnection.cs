@@ -27,5 +27,34 @@ namespace ClassesGerenciador.Modelos
                 return conn;
             }
         }
+
+        public void ListQuery(MySqlConnection conn)
+        {
+                try
+                {
+                string? campo;
+                    conn.Open();
+
+                    string query = "SELECT * FROM Etapas";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                Console.WriteLine(reader["Etapa"].ToString());
+                                // Substitua "ColumnName" pelo nome da coluna que você deseja acessar
+                                 campo = reader["Etapa"].ToString();
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Erro: " + ex.Message);
+                }
+        }
     }
+    
 }
