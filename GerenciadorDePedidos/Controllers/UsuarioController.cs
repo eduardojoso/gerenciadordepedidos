@@ -22,17 +22,17 @@ namespace GerenciadorDePedidos.Controllers
         //{
         //}
 
-        [HttpPost]
-        public void Post([FromBody] ModeloUsuario usuario)
-        {
-            usuario.InserirUsuario(usuario.Nome, usuario.Perfil, usuario.Status);
-        }
+        //[HttpPost]
+        //public void Post([FromBody] ModeloUsuario usuario)
+        //{
+        //    usuario.InserirUsuario(usuario.Nome, usuario.Perfil, usuario.Status);
+        //}
 
-        // PUT api/<UsuarioController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] ModeloUsuario usuario)
-        {
-            usuario.EditarUsuario(id, usuario.Nome, usuario.Perfil, usuario.Status);
-        }
+        //// PUT api/<UsuarioController>/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] ModeloUsuario usuario)
+        //{
+        //    usuario.EditarUsuario(id, usuario.Nome, usuario.Perfil, usuario.Status);
+        //}
     }
 }

@@ -205,3 +205,5 @@ C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\GerenciadorDe
 C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\GerenciadorDePedidos\obj\Debug\net6.0\GerenciadorDePedidos.pdb
 C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\GerenciadorDePedidos\obj\Debug\net6.0\GerenciadorDePedidos.genruntimeconfig.cache
 C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\GerenciadorDePedidos\obj\Debug\net6.0\ref\GerenciadorDePedidos.dll
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\GerenciadorDePedidos\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\egrfj\source\repos\GerenciadorDePedidosApp\GerenciadorDePedidos\bin\Debug\net6.0\MySqlConnector.dll

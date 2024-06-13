@@ -13,8 +13,8 @@ namespace GerenciadorDePedidos.Controllers
         [HttpGet]
         public void Get()
         {
-            DBConnection conection = new DBConnection();
-            conection.ListQuery(conection.DbConnection($"SELECT * FROM Etapas;"));
+            ModeloEtapas etapas = new ModeloEtapas();
+            etapas.VerEtapa();
         }
 
         // GET api/<EtapasController>/5
@@ -24,19 +24,19 @@ namespace GerenciadorDePedidos.Controllers
             return "value";
         }
 
-        // POST api/<EtapasController>
-        [HttpPost]
-        public void Post([FromBody] ModeloEtapas etapas)
-        {
-            etapas.InserirEtapa(etapas.IdPedido, etapas.IdUsuario, etapas.Etapa);
-        }
+        //// POST api/<EtapasController>
+        //[HttpPost]
+        //public void Post([FromBody] ModeloEtapas etapas)
+        //{
+        //    etapas.InserirEtapa(etapas.IdPedido, etapas.IdUsuario, etapas.Etapa);
+        //}
 
-        // PUT api/<EtapasController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] ModeloEtapas etapas)
-        {
-            etapas.EditarEtapa(id, etapas.IdPedido, etapas.IdUsuario, etapas.Etapa);
-        }
+        //// PUT api/<EtapasController>/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] ModeloEtapas etapas)
+        //{
+        //    etapas.EditarEtapa(id, etapas.IdPedido, etapas.IdUsuario, etapas.Etapa);
+        //}
 
        
     }

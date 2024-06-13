@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {}
+    "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\ClassesGerenciador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
+    "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\ClassesGerenciador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
+        "projectUniqueName": "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\ClassesGerenciador.csproj",
         "projectName": "ClassesGerenciador",
-        "projectPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
-        "packagesPath": "C:\\Users\\rony-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\obj\\",
+        "projectPath": "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\ClassesGerenciador.csproj",
+        "packagesPath": "C:\\Users\\egrfj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\egrfj\\source\\repos\\GerenciadorDePedidosApp\\ClassesGerenciador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\instalados\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rony-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\egrfj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -56,6 +56,10 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -74,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
