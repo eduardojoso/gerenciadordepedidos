@@ -37,3 +37,16 @@ C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\ClassesGerenc
 C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\refint\ClassesGerenciador.dll
 C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.pdb
 C:\Users\rony-\Desktop\gerenciador de pedidos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ref\ClassesGerenciador.dll
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.csproj.AssemblyReference.cache
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.AssemblyInfoInputs.cache
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.AssemblyInfo.cs
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.sourcelink.json
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.dll
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\refint\ClassesGerenciador.dll
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ClassesGerenciador.pdb
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\bin\Debug\net6.0\ClassesGerenciador.deps.json
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\bin\Debug\net6.0\ClassesGerenciador.dll
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\bin\Debug\net6.0\ClassesGerenciador.pdb
+C:\Users\Jefferson Nascimento\Desktop\GERAL\Estudos\gerenciadordepedidos\ClassesGerenciador\obj\Debug\net6.0\ref\ClassesGerenciador.dll

@@ -20,17 +20,17 @@ namespace ClassesGerenciador.Modelos
 
 
 
-        //public void InserirPedido(int idUser, string descricao, decimal valor, string cliente, string status, DateOnly data) 
-        //{
-        //    string dateOnly = data.ToString("yyyy-MM-dd");
-        //    DBConnection connection = new DBConnection();
-        //    connection.DbConnection($"INSERT INTO Pedidos (id_Usuario, Descricao, Valor, Cliente, Status, Data) VALUES ('{idUser}', '{descricao}', '{valor}', '{cliente}', '{status}', '{dateOnly}');");
-        //}
+        public void InserirPedido(int idUser, string descricao, decimal valor, string cliente, string status, DateOnly data)
+        {
+            string dateOnly = data.ToString("yyyy-MM-dd");
+            DBConnection connection = new DBConnection();
+            connection.ExecQuery($"INSERT INTO Pedidos (id_Usuario, Descricao, Valor, Cliente, Status, Data) VALUES ('{idUser}', '{descricao}', '{valor}', '{cliente}', '{status}', '{dateOnly}');");
+        }
 
-        //public void EditarPedido(int id, int idUser, string descricao, decimal valor, string cliente, string status) 
-        //{
-        //    DBConnection connection = new DBConnection();
-        //    connection.DbConnection($"UPDATE Pedidos SET id_Usuario='{idUser}', Descricao='{descricao}', Valor='{valor}', Cliente='{cliente}', Status='{status}' WHERE idPedidos={id};");
-        //}
+        public void EditarPedido(int id, int idUser, string descricao, decimal valor, string cliente, string status)
+        {
+            DBConnection connection = new DBConnection();
+            connection.ExecQuery($"UPDATE Pedidos SET id_Usuario='{idUser}', Descricao='{descricao}', Valor='{valor}', Cliente='{cliente}', Status='{status}' WHERE idPedidos={id};");
+        }
     }
 }

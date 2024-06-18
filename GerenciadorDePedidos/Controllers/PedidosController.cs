@@ -24,19 +24,19 @@ namespace GerenciadorDePedidos.Controllers
             return "value";
         }
 
-        //// POST api/<PedidosController>
-        //[HttpPost]
-        //public void Post([FromBody] ModeloPedido pedido)
-        //{
-        //    pedido.InserirPedido(pedido.IdUser, pedido.Descricao, pedido.Valor, pedido.Cliente, pedido.Status, pedido.Data);
-        //}
+        // POST api/<PedidosController>
+        [HttpPost]
+        public void Post([FromBody] ModeloPedido pedido)
+        {
+            pedido.InserirPedido(pedido.IdUser, pedido.Descricao, pedido.Valor, pedido.Cliente, pedido.Status, pedido.Data);
+        }
 
-        //// PUT api/<PedidosController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] ModeloPedido pedido)
-        //{
-        //    pedido.EditarPedido(id, pedido.IdUser, pedido.Descricao, pedido.Valor, pedido.Cliente, pedido.Status);
-        //}
+        // PUT api/<PedidosController>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] ModeloPedido pedido)
+        {
+            pedido.EditarPedido(id, pedido.IdUser, pedido.Descricao, pedido.Valor, pedido.Cliente, pedido.Status);
+        }
 
     }
 }
