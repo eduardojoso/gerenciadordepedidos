@@ -14,23 +14,31 @@ namespace ClassesGerenciador.Modelos
         public string Etapa { get; set; }
 
 
-        public void InserirEtapa(int idPedido, int idUsuario, string etapa) 
+        public void InserirEtapa(int idPedido, int idUsuario, string etapa)
         {
             DBConnection connection = new DBConnection();
-            connection.DbConnection($"INSERT INTO Etapas (id_Pedido, id_Usuario, Etapa) VALUES ('{idPedido}', '{idUsuario}', '{etapa}');");
+            connection.ExecQuery($"INSERT INTO Etapas (id_Pedido, id_Usuario, Etapa) VALUES ('{idPedido}', '{idUsuario}', '{etapa}');");
         }
 
-        public void EditarEtapa(int id,int idPedido, int idUsuario, string etapa)
+        public void EditarEtapa(int id, int idPedido, int idUsuario, string etapa)
         {
             DBConnection connection = new DBConnection();
-            connection.DbConnection($"UPDATE Etapas SET id_Pedido='{idPedido}', id_Usuario='{idUsuario}', Etapa='{etapa}' WHERE idEtapas={id};");
+            connection.ExecQuery($"UPDATE Etapas SET id_Pedido='{idPedido}', id_Usuario='{idUsuario}', Etapa='{etapa}' WHERE idEtapas={id};");
         }
 
-        /*public string ListarTodasEtapas() 
+        public List<Dictionary<string, object>> ListarTodasEtapas()
         {
             DBConnection connection = new DBConnection();
-            connection.DbConnection($"SELECT * FROM Etapas;");
-        }*/
+            return connection.ListQuery("SELECT * FROM Etapas");
+
+
+        }
+
+        public List<Dictionary<string, object>> ListarEtapa(int id)
+        {
+            DBConnection connection = new DBConnection();
+            return connection.ListQuery($"SELECT * FROM Etapas where idEtapas = {id}");
+        }
     }
 
 

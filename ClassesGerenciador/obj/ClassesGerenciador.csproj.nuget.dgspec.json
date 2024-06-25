@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {}
+    "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
+    "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
+        "projectUniqueName": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
         "projectName": "ClassesGerenciador",
-        "projectPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
-        "packagesPath": "C:\\Users\\rony-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rony-\\Desktop\\gerenciador de pedidos\\gerenciadordepedidos\\ClassesGerenciador\\obj\\",
+        "projectPath": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\ClassesGerenciador.csproj",
+        "packagesPath": "C:\\Users\\Jefferson Nascimento\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\instalados\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rony-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jefferson Nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +57,14 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

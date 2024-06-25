@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ClassesGerenciador.Modelos;
+using Newtonsoft.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,17 +12,27 @@ namespace GerenciadorDePedidos.Controllers
     {
         // GET: api/<EtapasController>
         [HttpGet]
-        public void Get()
+        public IActionResult Get()
         {
-            DBConnection conection = new DBConnection();
-            conection.ListQuery(conection.DbConnection($"SELECT * FROM Etapas;"));
+            ModeloEtapas etapas = new ModeloEtapas();
+            List<Dictionary<string, object>> ListEtapas = etapas.ListarTodasEtapas();
+
+            string jsonResult = JsonConvert.SerializeObject(ListEtapas, Formatting.Indented);
+
+            return Content(jsonResult, "application/json");
         }
 
         // GET api/<EtapasController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            ModeloEtapas etapas = new ModeloEtapas();
+            List<Dictionary<string, object>> Etapa = etapas.ListarEtapa(id);
+
+            string jsonResult = JsonConvert.SerializeObject(Etapa, Formatting.Indented);
+
+            return Content(jsonResult, "application/json");
+         
         }
 
         // POST api/<EtapasController>
@@ -38,6 +49,6 @@ namespace GerenciadorDePedidos.Controllers
             etapas.EditarEtapa(id, etapas.IdPedido, etapas.IdUsuario, etapas.Etapa);
         }
 
-       
+
     }
 }
