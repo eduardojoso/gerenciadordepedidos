@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ClassesGerenciador.Modelos;
+using Newtonsoft.Json;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,16 +13,27 @@ namespace GerenciadorDePedidos.Controllers
     {
         // GET: api/<PedidosController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            ModeloPedido pedidos = new ModeloPedido();
+            List<Dictionary<string, object>> ListPedidos = pedidos.ListarTodosPedidos();
+
+            string jsonResult = JsonConvert.SerializeObject(ListPedidos, Formatting.Indented);
+
+            return Content(jsonResult, "application/json");
         }
 
         // GET api/<PedidosController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            ModeloPedido pedidos = new ModeloPedido();
+            List<Dictionary<string, object>> Pedido = pedidos.ListarPedido(id);
+
+            string jsonResult = JsonConvert.SerializeObject(Pedido, Formatting.Indented);
+
+            return Content(jsonResult, "application/json");
+
         }
 
         // POST api/<PedidosController>

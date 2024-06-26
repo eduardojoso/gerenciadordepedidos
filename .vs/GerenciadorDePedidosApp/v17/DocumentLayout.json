@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\",
+  "WorkspaceRootPath": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|c:\\users\\jefferson nascimento\\desktop\\geral\\estudos\\gerenciadordepedidos\\classesgerenciador\\modelos\\modelousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|solutionrelative:classesgerenciador\\modelos\\modelousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|c:\\users\\wan\\source\\repos\\gerenciadordepedidos\\gerenciadordepedidos\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|solutionrelative:gerenciadordepedidos\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|c:\\users\\jefferson nascimento\\desktop\\geral\\estudos\\gerenciadordepedidos\\gerenciadordepedidos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|solutionrelative:gerenciadordepedidos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|c:\\users\\jefferson nascimento\\desktop\\geral\\estudos\\gerenciadordepedidos\\gerenciadordepedidos\\controllers\\etapascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|c:\\users\\wan\\source\\repos\\gerenciadordepedidos\\gerenciadordepedidos\\controllers\\etapascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FF0DD1F-9EB5-484F-98F8-D68751C97271}|GerenciadorDePedidos\\GerenciadorDePedidos.csproj|solutionrelative:gerenciadordepedidos\\controllers\\etapascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|c:\\users\\jefferson nascimento\\desktop\\geral\\estudos\\gerenciadordepedidos\\classesgerenciador\\modelos\\modeloetapas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|solutionrelative:classesgerenciador\\modelos\\modeloetapas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|c:\\users\\wan\\source\\repos\\gerenciadordepedidos\\classesgerenciador\\modelos\\modelopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|solutionrelative:classesgerenciador\\modelos\\modelopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|c:\\users\\jefferson nascimento\\desktop\\geral\\estudos\\gerenciadordepedidos\\classesgerenciador\\modelos\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|solutionrelative:classesgerenciador\\modelos\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|c:\\users\\wan\\source\\repos\\gerenciadordepedidos\\classesgerenciador\\modelos\\modeloetapas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CA7D20-CD6A-4968-99A8-D4C11559B0F9}|ClassesGerenciador\\ClassesGerenciador.csproj|solutionrelative:classesgerenciador\\modelos\\modeloetapas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,66 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ModeloPedido.cs",
+              "DocumentMoniker": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloPedido.cs",
+              "RelativeDocumentMoniker": "ClassesGerenciador\\Modelos\\ModeloPedido.cs",
+              "ToolTip": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloPedido.cs",
+              "RelativeToolTip": "ClassesGerenciador\\Modelos\\ModeloPedido.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:54:13.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "GerenciadorDePedidos\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "GerenciadorDePedidos\\Controllers\\PedidosController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAB4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:55:22.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EtapasController.cs",
-              "DocumentMoniker": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\EtapasController.cs",
+              "DocumentMoniker": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\EtapasController.cs",
               "RelativeDocumentMoniker": "GerenciadorDePedidos\\Controllers\\EtapasController.cs",
-              "ToolTip": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\EtapasController.cs",
+              "ToolTip": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\EtapasController.cs",
               "RelativeToolTip": "GerenciadorDePedidos\\Controllers\\EtapasController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T23:41:32.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "GerenciadorDePedidos\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\GerenciadorDePedidos\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "GerenciadorDePedidos\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:39:45.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModeloUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloUsuario.cs",
-              "RelativeDocumentMoniker": "ClassesGerenciador\\Modelos\\ModeloUsuario.cs",
-              "ToolTip": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloUsuario.cs",
-              "RelativeToolTip": "ClassesGerenciador\\Modelos\\ModeloUsuario.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCQAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:38:35.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ModeloEtapas.cs",
-              "DocumentMoniker": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloEtapas.cs",
+              "DocumentMoniker": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloEtapas.cs",
               "RelativeDocumentMoniker": "ClassesGerenciador\\Modelos\\ModeloEtapas.cs",
-              "ToolTip": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloEtapas.cs",
+              "ToolTip": "C:\\Users\\wan\\source\\repos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\ModeloEtapas.cs",
               "RelativeToolTip": "ClassesGerenciador\\Modelos\\ModeloEtapas.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wCQAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T23:41:24.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\DBConnection.cs",
-              "RelativeDocumentMoniker": "ClassesGerenciador\\Modelos\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\Jefferson Nascimento\\Desktop\\GERAL\\Estudos\\gerenciadordepedidos\\ClassesGerenciador\\Modelos\\DBConnection.cs",
-              "RelativeToolTip": "ClassesGerenciador\\Modelos\\DBConnection.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA8AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:26:47.418Z",
               "EditorCaption": ""
             }
           ]

@@ -32,5 +32,17 @@ namespace ClassesGerenciador.Modelos
             DBConnection connection = new DBConnection();
             connection.ExecQuery($"UPDATE Pedidos SET id_Usuario='{idUser}', Descricao='{descricao}', Valor='{valor}', Cliente='{cliente}', Status='{status}' WHERE idPedidos={id};");
         }
+        public List<Dictionary<string, object>> ListarTodosPedidos()
+        {
+            DBConnection connection = new DBConnection();
+            return connection.ListQuery("SELECT * FROM Pedidos");
+
+
+        }
+        public List<Dictionary<string, object>> ListarPedido(int id)
+        {
+            DBConnection connection = new DBConnection();
+            return connection.ListQuery($"SELECT * FROM Pedidos where idPedidos = {id}");
+        }
     }
 }
